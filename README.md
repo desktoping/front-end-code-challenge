@@ -10,7 +10,7 @@
   ```
 - Run client
   ```bash
-  cd client && yarn start
+  cd client && yarn dev
   ```
 
 # IMPROVEMENTS
