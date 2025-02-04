@@ -6,11 +6,11 @@
   ```
 - Run server
   ```bash
-  cd server && yarn watch:api
+  cd packages/server && yarn watch:api
   ```
 - Run client
   ```bash
-  cd client && yarn dev
+  cd packages/client && yarn dev
   ```
 
 # IMPROVEMENTS
