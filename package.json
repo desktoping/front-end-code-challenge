@@ -1,23 +1,13 @@
 {
   "name": "drone-challenge",
   "version": "1.0.0",
+  "private": true,
   "license": "MIT",
   "engines": {
     "node": "18.20"
   },
-  "scripts": {
-    "watch:api": "yarn tsx watch src/api/index.ts",
-    "types": "yarn tsc"
-  },
-  "dependencies": {
-    "cors": "2.8.5",
-    "express": "4.21.2"
-  },
-  "devDependencies": {
-    "@faker-js/faker": "^9.4.0",
-    "@types/cors": "^2.8.17",
-    "@types/express": "^4.17.21",
-    "tsx": "^4.19.2",
-    "typescript": "5.7.3"
-  }
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Reden Sanchez"
 }
